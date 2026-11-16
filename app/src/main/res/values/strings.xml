@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">AlmacenPro</string>
+
+    <string name="logo">Logo</string>
+
+    <string name="correo">Correo electrónico</string>
+
+    <string name="password">Contraseña</string>
+
+    <string name="ingresar">Ingresar</string>
+
+    <string name="registrarse">Registrarse</string>
+
+</resources>
