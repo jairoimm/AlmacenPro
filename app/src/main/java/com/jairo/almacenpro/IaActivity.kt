@@ -1,5 +1,8 @@
 package com.jairo.almacenpro
 
+import android.content.Intent
+import android.widget.Button
+import android.widget.Toast
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -11,5 +14,17 @@ class IaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_ia)
+
+        val btnConsultarIA = findViewById<Button>(R.id.btnConsultarIA)
+
+        btnConsultarIA.setOnClickListener {
+
+            Toast.makeText(
+                this,
+                "Consulta procesada",
+                Toast.LENGTH_SHORT
+            ).show()
+
+        }
     }
 }
