@@ -17,6 +17,7 @@
             android:layout_height="120dp"
             android:layout_gravity="center"
             android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="19dp"
             android:contentDescription="@string/logo"/>
 
         <TextView
@@ -27,7 +28,7 @@
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="19dp"/>
 
         <EditText
             android:id="@+id/edtCorreo"
@@ -59,6 +60,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/txtOlvidePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste tu contraseña?"
+            android:layout_gravity="center"
             android:layout_marginTop="16dp"/>
 
     </LinearLayout>
