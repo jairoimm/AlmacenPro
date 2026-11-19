@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ListaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +17,7 @@
             android:id="@+id/txtTituloLista"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Inventario"
+            android:text="@string/titulo_inventario"
             android:textStyle="bold"
             android:textSize="28sp"
             android:layout_marginTop="27dp"/>
@@ -23,56 +26,56 @@
             android:id="@+id/btnAgregar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+ Agregar Producto"
+            android:text="@string/btn_agregar_producto"
             android:layout_marginTop="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Arroz Miraflores"
+            android:text="@string/producto_arroz_miraflores"
             android:textStyle="bold"
             android:paddingTop="24dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stock: 30 unidades" />
+            android:text="@string/stock_30_unidades" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#CCCCCC"
+            android:background="@color/divisor"
             android:layout_marginTop="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aceite Vegetal"
+            android:text="@string/producto_aceite_vegetal"
             android:textStyle="bold"
             android:paddingTop="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stock: 12 unidades" />
+            android:text="@string/stock_12_unidades" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#CCCCCC"
+            android:background="@color/divisor"
             android:layout_marginTop="8dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Azúcar"
+            android:text="@string/producto_azucar"
             android:textStyle="bold"
             android:paddingTop="16dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stock: 20 unidades" />
+            android:text="@string/stock_20_unidades" />
 
     </LinearLayout>
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".IaActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +17,7 @@
             android:id="@+id/txtTituloIA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Asistente IA"
+            android:text="@string/titulo_ia"
             android:textSize="26sp"
             android:textStyle="bold"
             android:layout_marginTop="27dp"/>
@@ -22,26 +25,28 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Consulta sobre inventario"
+            android:text="@string/consulta_sobre_inventario"
             android:layout_marginTop="20dp"/>
 
         <EditText
             android:id="@+id/edtPreguntaIA"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Escribe tu consulta"/>
+            android:hint="@string/escribe_tu_consulta"
+            android:inputType="textMultiLine|textCapSentences"
+            android:importantForAutofill="no"/>
 
         <Button
             android:id="@+id/btnConsultarIA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Consultar"/>
+            android:text="@string/consultar"/>
 
         <TextView
             android:id="@+id/txtRespuestaIA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="La respuesta de IA aparecerá aquí."
+            android:text="@string/respuesta_ia_default"
             android:paddingTop="24dp"/>
 
     </LinearLayout>

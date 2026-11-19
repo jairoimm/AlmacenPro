@@ -1,15 +1,59 @@
 <resources>
 
     <string name="app_name">AlmacenPro</string>
-
     <string name="logo">Logo</string>
-
     <string name="correo">Correo electrónico</string>
-
     <string name="password">Contraseña</string>
-
     <string name="ingresar">Ingresar</string>
-
     <string name="registrarse">Registrarse</string>
+
+    <!-- Login -->
+    <string name="olvide_password">¿Olvidaste tu contraseña?</string>
+
+    <!-- Registro -->
+    <string name="titulo_registro">Registro de Usuario</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="nombre_almacen">Nombre del almacén</string>
+    <string name="confirmar_password">Confirmar contraseña</string>
+    <string name="rol">Rol</string>
+    <string name="rol_administrador">Administrador</string>
+    <string name="rol_empleado">Empleado</string>
+    <string name="terminos_condiciones">Acepto términos y condiciones</string>
+    <string name="btn_registrar">Registrar</string>
+
+    <!-- Agregar Producto -->
+    <string name="titulo_agregar_producto">Agregar Producto</string>
+    <string name="nombre_producto">Nombre del producto</string>
+    <string name="categoria">Categoría</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="precio">Precio</string>
+    <string name="guardar_producto">Guardar Producto</string>
+
+    <!-- Detalle Producto -->
+    <string name="titulo_detalle_producto">Detalle del Producto</string>
+    <string name="detalle_nombre_arroz">Nombre: Arroz Miraflores</string>
+    <string name="detalle_categoria_abarrotes">Categoría: Abarrotes</string>
+    <string name="detalle_cantidad_30">Cantidad: 30</string>
+    <string name="detalle_precio_1500">Precio: $1.500</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!-- Asistente IA -->
+    <string name="titulo_ia">Asistente IA</string>
+    <string name="consulta_sobre_inventario">Consulta sobre inventario</string>
+    <string name="escribe_tu_consulta">Escribe tu consulta</string>
+    <string name="consultar">Consultar</string>
+    <string name="respuesta_ia_default">La respuesta de IA aparecerá aquí.</string>
+    <string name="consulta_procesada">Consulta procesada</string>
+
+    <!-- Lista Inventario -->
+    <string name="titulo_inventario">Inventario</string>
+    <string name="btn_agregar_producto">+ Agregar Producto</string>
+    <string name="producto_arroz_miraflores">Arroz Miraflores</string>
+    <string name="stock_30_unidades">Stock: 30 unidades</string>
+    <string name="producto_aceite_vegetal">Aceite Vegetal</string>
+    <string name="stock_12_unidades">Stock: 12 unidades</string>
+    <string name="producto_azucar">Azúcar</string>
+    <string name="stock_20_unidades">Stock: 20 unidades</string>
 
 </resources>

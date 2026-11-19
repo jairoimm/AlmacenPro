@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".RegistroActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +17,7 @@
             android:id="@+id/txtTituloRegistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registro de Usuario"
+            android:text="@string/titulo_registro"
             android:textSize="24sp"
             android:layout_marginTop="27dp"
             android:textStyle="bold"/>
@@ -23,39 +26,46 @@
             android:id="@+id/edtNombre"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Nombre completo"/>
+            android:hint="@string/nombre_completo"
+            android:inputType="textPersonName|textCapWords"
+            android:autofillHints="name"/>
 
         <EditText
             android:id="@+id/edtCorreoRegistro"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Correo electrónico"
-            android:inputType="textEmailAddress"/>
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress"/>
 
         <EditText
             android:id="@+id/edtAlmacen"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Nombre del almacén"/>
+            android:hint="@string/nombre_almacen"
+            android:inputType="textCapWords"
+            android:importantForAutofill="no"/>
 
         <EditText
             android:id="@+id/edtPasswordRegistro"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Contraseña"
-            android:inputType="textPassword"/>
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:autofillHints="newPassword"/>
 
         <EditText
             android:id="@+id/edtConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Confirmar contraseña"
-            android:inputType="textPassword"/>
+            android:hint="@string/confirmar_password"
+            android:inputType="textPassword"
+            android:autofillHints="newPassword"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rol"/>
+            android:text="@string/rol"/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -65,26 +75,29 @@
                 android:id="@+id/rbAdministrador"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Administrador"/>
+                android:minHeight="48dp"
+                android:text="@string/rol_administrador"/>
 
             <RadioButton
                 android:id="@+id/rbEmpleado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Empleado"/>
+                android:minHeight="48dp"
+                android:text="@string/rol_empleado"/>
         </RadioGroup>
 
         <CheckBox
             android:id="@+id/chkTerminos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Acepto términos y condiciones"/>
+            android:minHeight="48dp"
+            android:text="@string/terminos_condiciones"/>
 
         <Button
             android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar"/>
+            android:text="@string/btn_registrar"/>
 
     </LinearLayout>
 

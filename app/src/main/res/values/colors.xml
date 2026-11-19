@@ -2,14 +2,7 @@
 <resources>
 
     <color name="primario">#2E7D32</color>
-    <color name="primario_oscuro">#1B5E20</color>
-
     <color name="secundario">#4CAF50</color>
-
-    <color name="fondo">#F5F5F5</color>
-
-    <color name="fondo_tarjeta">#FFFFFF</color>
-
-    <color name="texto_principal">#212121</color>
+    <color name="divisor">#CCCCCC</color>
 
 </resources>

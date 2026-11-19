@@ -1,6 +1,5 @@
 package com.jairo.almacenpro
 
-import android.content.Intent
 import android.widget.Button
 import android.widget.Toast
 import android.os.Bundle
@@ -21,7 +20,7 @@ class IaActivity : AppCompatActivity() {
 
             Toast.makeText(
                 this,
-                "Consulta procesada",
+                R.string.consulta_procesada,
                 Toast.LENGTH_SHORT
             ).show()
 
